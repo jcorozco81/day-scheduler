@@ -30,6 +30,7 @@ for(var x=0; x<timeblockRows.length; x++){
     }
     else if(currenthourInt<timeblockRows[x]){
         $("#"+timeblockRows[x]).css('background-color', '#00CC00');
+        
     }
     else{
 

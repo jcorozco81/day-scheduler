@@ -76,7 +76,7 @@ saveButton.on('click', function (event) {
 
 
 localStorage.setItem("saved-tasks", JSON.stringify(tosave));
-    alert('Saved');                                                     //Saved alert
+    // alert('Saved');                                                     //Saved alert
   });
 
 

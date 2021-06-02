@@ -70,19 +70,25 @@ body {
     transition: all 0.3s ease-in-out;
   }
 
-/* New entries */
+/* -----New entries----- */
 
   .form-control{
-    background-color: grey;
+    background-color: whitesmoke;
   }
 
-  .input-group-prepend {
-    /* width: 120px; */
+  .btn {
+  border: #D1D1D1;
+  background-color: gray;
+  color: white;
 
   }
   .input-group-text{
 
     width: 120px;
+    background-color: white;
 
+  }
 
+  img{
+    width: 20px;
   }

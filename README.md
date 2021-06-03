@@ -42,17 +42,17 @@ Or
 
 1. The webpage will load on the web browser, and it shall be similar to the one shown in the following picture.
 
-[Screenshot of the Code Quiz Main Page](/assets/images/day-planner-1.png)
+[Screenshot: Empty Page](/assets/images/day-planner-1.png)
 
-![Screenshot of the Code Quiz Main Page](/assets/images/day-planner-1.png)
+![Screenshot: Empty Page](/assets/images/day-planner-1.png)
 
 2. To save data, click on the desire text field and enter the desired text. Click on the **Save** button on the rigth side. To erase data, clear the text field and click on save to erase.
 
 **Note**: Each of the **Save** buttons work only for the corresponding line. **You need to click Save on the line you are working on**
 
-[Screenshot showing a Questions](/assets/images/day-planner-2.png)
+[Screenshot: Some slots filled](/assets/images/day-planner-2.png)
 
-![Screenshot showing a Questions](/assets/images/day-planner-2.png)
+![Screenshot: Some slots filled](/assets/images/day-planner-2.png)
 
 3. All data will be saved on the browser local storage. The browser can be closed and all data will be kept. TO retreive data, open visit the website and the sata will automatically load.
 

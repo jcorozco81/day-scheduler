@@ -5,9 +5,13 @@ Day Scheduler Webpage
 
 ## Description
 
-The Day Scheduler Webpage was created with the purpose of providing the user a tool to plan his/her workday. The Day Scheduler provides a text fields for the user to add notes and task to be completed. Each text field correspond to a different work hour. Using a color coding and a syncronized clock, the Day Scheduler also lets the user know what time it is and 
+The Day Scheduler Webpage was created with the purpose of providing the user a tool to plan his/her workday. The Day Scheduler has a slot for each of the workday hours; the user can add notes on each of the text fields. By clicking on a Save button, the user can store the data on the browser's local storage and if the browser is closed, the user will be able to retrieve the saved data. The Day Scheduler also has a clock which lets the user know what time it is, and also it colors each of the hour slots depending on the current time. 
 
-By working on this project, I learned how to use the JQuery, moment.js and Bootstrap to code to create html content. 
+* Elapsed hour slots will colored gray.
+* Current hour slot will be colored red.
+* Future hour slots will be colored green.
+
+By working on this project, I learned how to use the JQuery, moment.js and Bootstrap to create different content. 
 
 
 
@@ -38,23 +42,28 @@ Or
 
 1. The webpage will load on the web browser, and it shall be similar to the one shown in the following picture.
 
-[Screenshot of the Code Quiz Main Page](/assets/images/main-page.PNG)
+[Screenshot of the Code Quiz Main Page](/assets/images/day-planner-1.png)
 
-![Screenshot of the Code Quiz Main Page](/assets/images/main-page.PNG)
+![Screenshot of the Code Quiz Main Page](/assets/images/day-planner-1.png)
 
-2. To start the quiz, click on the button **Start Quiz**. After the **Star Quiz** button is clicked, a question will be shown and the timer on top of the screen will start. Only one question will be shown at a time. After a question is answered, then the next one will be shown and then successively until all four are shown. If the question is answered correctly, a text that reads **Correct!** will be shown. If the question is answered incorrectly a text that reads **Incorrect, -10 points!** will be shown and 10 seconds will be automatically subtracted from the time.
+2. To save data, click on the desire text field and enter the desired text. Click on the **Save** button on the rigth side. To erase data, clear the text field and click on save to erase.
 
-[Screenshot showing a Questions](/assets/images/questions.PNG)
+**Note**: Each of the **Save** buttons work only for the corresponding line. **You need to click Save on the line you are working on**
 
-![Screenshot showing a Questions](/assets/images/questions.PNG)
+[Screenshot showing a Questions](/assets/images/day-planner-2.png)
 
+![Screenshot showing a Questions](/assets/images/day-planner-2.png)
+
+3. All data will be saved on the browser local storage. The browser can be closed and all data will be kept. TO retreive data, open visit the website and the sata will automatically load.
 
 
 
 
 ## Credits
 
-The index.html file, the style.CSS file and the JavaScript code file (script.js) in this project were created by Juan Carlos Orozco.
+A portion of the index.html and the style.CSS file were created by © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+A portion of the index.html and the style.CSS file and the entire JavaScript file (script.js) were created by Juan Carlos Orozco.
 
 Contact Information:
 * Juan Orozco

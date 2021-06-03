@@ -75,16 +75,32 @@ body {
 .jumbotron{
   border-bottom: solid #96B4DC 5px;
   color: #3C4858;
+  padding: 50px;
+}
+
+.input-group{
+  margin: 1px;
+  font-size: 1.0rem;
+  border: solid #96B4DC 1px;
+  border-radius: 5px;
+
 }
 
   .form-control{
     background-color: whitesmoke;
+    font-size: 1.0rem;
+
+
+
   }
 
   .btn {
   border: #D1D1D1;
   background-color: #8C96B4;
   color: #D2D2DC;
+  font-size: 1.0rem;
+
+
 
   }
   .input-group-text{
@@ -92,6 +108,7 @@ body {
     width: 120px;
     background-color: #8C96B4;
     color: #D2D2DC;
+
 
   }
 
@@ -103,14 +120,24 @@ body {
     text-align: center;
     display: block;
     margin-top: 30px;
-    border-top: solid #96B4DC 2px;
+    border-top: solid #96B4DC 5px;
     color: #3C4858;
 
   }
 
+  #footer-container{
+    padding: 20px;
+  }
+
   footer h5{
     padding-top: 10px;
+
   }
+
+  footer a{
+    font-size: small;
+  }
+
 
   
 
@@ -156,6 +183,10 @@ body {
 
       width: 50px;
        
+    }
+
+    footer a{
+      font-size: xx-small;
     }
 
   
